@@ -1,0 +1,109 @@
+body {
+  font-family: sans-serif;
+}
+.left-panel {
+  height: 100vh;
+}
+.left-panel-content-container {
+  width: 300px;
+  height: 100%;
+  overflow-y: auto;
+}
+.content {
+  display: none;
+}
+
+.content-name {
+  font-weight: bold;
+}
+
+.content-active {
+  display: block;
+}
+
+/* default Text */
+.text {
+  margin: 10px 0;
+}
+.text:hover {
+  cursor: pointer;
+}
+
+/* toolbar */
+.toolbar {
+  background-color: white;
+}
+
+/* canvas */
+.canvas-container {
+  width: 100%;
+  min-height: 90vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.canvas {
+  width: 100%;
+  max-width: 767px;
+  height: 456px;
+  background-color: white;
+  /* border-radius: 5px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* color container */
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+.color {
+  width: 55px;
+  height: 55px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-blue {
+  background-color: blue;
+}
+.color-black {
+  background-color: black;
+}
+.color-green {
+  background-color: green;
+}
+.color-grey {
+  background-color: grey;
+}
+.color-purple {
+  background-color: purple;
+}
+.color-orange {
+  background-color: orange;
+}
+.color-lightblue {
+  background-color: lightblue;
+}
+.color-darkorchid {
+  background-color: darkorchid;
+}
+.color-salmon {
+  background-color: salmon;
+}
+
+.color-cyan {
+  background-color: cyan;
+}
+
+/* images */
+
+.image {
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  object-fit: contain;
+}
